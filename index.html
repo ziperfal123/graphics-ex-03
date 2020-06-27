@@ -16,16 +16,17 @@
   <body>
     <div id="canvas-container">
       <div id="action-icons">
-        <div class="upload-container">
-          <input
-            type="file"
-            class="input-btn upload-btn selected"
-            id="uploaded-file"
-            value="uploaded-file"
-          />
-        </div>
         <div class="container">
+          <div class="upload-container">
+            <input
+              type="file"
+              class="input-btn upload-btn selected"
+              id="uploaded-file"
+              value="uploaded-file"
+            />
+          </div>
           <h3>projection</h3>
+          <label>Parallel</label>
           <input
             class="projection-radio-btn"
             id="parallelRadio"
@@ -33,27 +34,26 @@
             value="parallel"
             name="projection"
           />
-          <span>Parallel</span>
+          <label>Oblique</label>
           <input
             class="projection-radio-btn"
             type="button"
             value="oblique"
             name="projection"
-          />
+            />
           <input
             id="oblique-angle"
             type="number"
             value="obliqueAngle"
             name="projection"
           />
-          <span>Oblique</span>
+          <label>Perspective</label>
           <input
             class="projection-radio-btn"
             type="button"
             value="perspective"
             name="projection"
           />
-          <span>Perspective</span>
 
           <label>Rotation angle</label>
           <input type="number" id="rotation-angle" />
@@ -83,10 +83,10 @@
           <input type="number" id="scaling-input" />
           <button type="button" class="input-btn btn" id="scaling-btn">
             Scaling
-          </button>
-        </div>
-        <div class="clear-btn-container">
-          <button id="clear-canvas-btn">CLEAR</button>
+          </button> 
+          <div class="clear-btn-container">
+            <button id="clear-canvas-btn">CLEAR</button>
+          </div>
         </div>
       </div>
       <canvas id="canvas" width="1200" height="700"></canvas>
