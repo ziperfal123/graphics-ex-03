@@ -1,0 +1,183 @@
+/* Amit Levy - 311133433 */
+/* Yaniv Ziperfal - 203311303 */
+/* Eran Maron - 037040458 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  outline: none;
+}
+
+h1 {
+  position: relative;
+  top: 60px;
+}
+
+#canvas {
+  margin-top: 70px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.radio-btn {
+  margin-top: 5px;
+}
+
+#radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 350px;
+}
+
+#canvas-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+#action-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+  margin-right: 20px;
+}
+
+#action-icons input {
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 15px 0;
+  background-color: red;
+  height: 700px;
+}
+
+.btn {
+  width: 100px !important;
+}
+
+.hidden-btn {
+  position: absolute;
+  right: 60px;
+  width: 35px !important;
+}
+
+.hide-element {
+  display: none;
+}
+
+.selected {
+  border: 2px solid skyblue !important;
+  box-shadow: 0 0 0 2px;
+}
+
+span {
+  /* position: absolute; */
+  font-size: 18px;
+  line-height: normal;
+  right: 75px;
+  bottom: 65px;
+}
+
+.upload-btn {
+  width: 50% !important;
+  height: 20px !important;
+  color: transparent;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.transition-container {
+  display: flex;
+  width: 70%;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.transition-btn {
+  color: transparent;
+  background: url("./assets/drag.png") no-repeat center;
+  background-size: contain;
+}
+
+.scaling-container {
+  display: flex;
+  width: 50%;
+  height: 30px;
+  justify-content: space-around;
+}
+
+#oblique-angle {
+  display: none;
+}
+
+#mirroring-y {
+  color: transparent;
+  background: url("./assets/flip-horizontal.jpg") no-repeat center;
+  background-size: contain;
+}
+
+#mirroring-x {
+  color: transparent;
+  background: url("./assets/flip-horizontal.jpg") no-repeat center;
+  background-size: contain;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#shearing-x {
+  color: transparent;
+  background: url("./assets/shear.png") no-repeat center;
+  background-size: contain;
+}
+
+#shearing-y {
+  color: transparent;
+  background: url("./assets/shear.png") no-repeat center;
+  background-size: contain;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.clear-btn-container {
+  margin-top: 15px;
+  width: 100%;
+}
+
+#clear-canvas-btn {
+  width: 65%;
+}
