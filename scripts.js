@@ -1,3 +1,7 @@
+// Amit Levy - 311133433
+// Yaniv Ziperfal - 203311303
+// Eran Maron - 037040458
+
 const PROJECTIONS = {
   oblique: "oblique",
   perspective: "perspective",
