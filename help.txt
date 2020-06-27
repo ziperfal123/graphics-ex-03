@@ -1,0 +1,12 @@
+- General:
+    * in order to work with the project- please upload a valid .json file.
+    we already made one for you- please open "data.json"
+    * uploading the .json file will display to shapes on the screen
+    * The data in the .json file consists of:
+        ** Points array.
+        ** polygons array.
+        ** colors array.
+- Running an action:
+    * Choose the Projetions button (Parallel, Oblique or Perspective). The default value is Parallel.
+    * You should see an added number input field just when selecting oblique.
+    * When rotation the objects- notice the rotation angle field (default is 15).
