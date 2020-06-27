@@ -1,3 +1,7 @@
+<!--Amit Levy - 311133433-->
+<!--Yaniv Ziperfal - 203311303-->
+<!--Eran Maron - 037040458 -->
+
 - General:
     * in order to work with the project- please upload a valid .json file.
     we already made one for you- please open "data.json"
